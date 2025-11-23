@@ -1,2 +1,2 @@
-# groom-website
+# https://groom.website
 Website for GROOM project
