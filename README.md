@@ -1,2 +1,2 @@
 # https://groom.website
-Website for GROOM project
+Website for GROOM project. Under development.
