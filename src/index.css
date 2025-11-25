@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* iOS - предотвращает масштабирование */
+  -webkit-text-size-adjust: 100%;
+  /* Предотвращение горизонтального скролла */
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #212529;
+  line-height: 1.6;
+  /* iOS - плавный скролл */
+  -webkit-overflow-scrolling: touch;
+  /* Предотвращение горизонтального скролла */
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #ad4e9a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  /* iOS - внешний вид */
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:hover {
+  background: #9c3d8b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(173, 78, 154, 0.3);
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #212529;
+  font-weight: 700;
+}
+
+.btn-large {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #ad4e9a;
+  color: #ad4e9a;
+}
+
+.btn-outline:hover {
+  background: #ad4e9a;
+  color: white;
+}
+
+/* iOS */
+@supports (-webkit-touch-callout: none) {
+  .header {
+    position: -webkit-sticky;
+  }
+  
+  .hero {
+    height: 100vh;
+    height: -webkit-fill-available;
+  }
+  
+  input, textarea, select {
+    font-size: 16px;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+.scroll-fix {
+  -webkit-overflow-scrolling: touch;
+}
+
+.ios-full-height {
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
+/* Фоновые изображения на iOS */
+.bg-image-fix {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+/* Мобильные стили */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    padding: 10px 24px;
+    font-size: 15px;
+  }
+  
+  .btn-large {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+  
+  /* Фикс для ширины на мобильных */
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  
+  .btn-large {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}

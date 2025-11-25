@@ -1,0 +1,127 @@
+.section-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+  color: #575b5e;
+}
+
+.groomers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.groomer-card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e9ecef;
+}
+
+.groomer-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  position: relative; 
+}
+
+.groomer-image {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+
+.groomer-image img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.groomer-card:hover .groomer-image img {
+  transform: scale(1.08);
+}
+
+.groomer-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  padding: 2rem 1rem 1rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.groomer-card:hover .groomer-overlay {
+  transform: translateY(0);
+}
+
+.groomer-overlay h3 {
+  color: rgb(241, 227, 237);
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.groomer-overlay p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.groomer-info {
+  padding: 1.8rem;
+}
+
+.groomer-info h3 {
+  font-size: 1.4rem;
+  color: #212529;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.groomer-position {
+  color: #ad4e9a;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.groomer-exp {
+  color: #2c2d2d;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.groomer-spec {
+  font-style: italic;
+  margin: 0.8rem 0;
+  color: #2c2d2d;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.groomer-desc {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-top: 0.8rem;
+  color: #2c2d2d;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .groomers-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .groomers-page {
+    padding-bottom: 60px;
+  }
+}
