@@ -91,8 +91,8 @@
 }
 
 .header .btn-outline:hover {
-  background: #ad4e9a;
-  color: white;
+  background: #ffffff;
+  color: #8a3a7a;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(173, 78, 154, 0.3);
 }
