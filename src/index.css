@@ -34,7 +34,7 @@ body {
   padding: 12px 30px;
   background: #ad4e9a;
   color: white;
-  border: none;
+  border: 2px solid#8a3a7a;
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
@@ -49,7 +49,8 @@ body {
 }
 
 .btn:hover {
-  background: #9c3d8b;
+  background: #f6eaf4;
+  color: #8a3a7a;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(173, 78, 154, 0.3);
 }
