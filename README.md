@@ -14,9 +14,13 @@
 **🛠️ Используемые технологии:**
 
 **Frontend:** React 18, React Router DOM 6
+
 **Сборка:** Vite
+
 **Стили:** Pure CSS (использованы Flexbox, Grid, CSS-анимации)
-**Хостинг и домен:** Beget.com
+
+**Хостинг и домен:** Beget.com 
+
 **Инструменты:** Git, GitHub
 
 **📊Аналитика и метрики:**
@@ -32,7 +36,7 @@
 **Website for GROOM project.**
 A training project to create a fully functional, responsive website for a pet grooming studio.
 
-**🚀 About the project:** This website was created as part of a modern front-end development training course to practice practical skills. It is a virtual grooming studio with a full set of pages: homepage, services, team, gallery, contacts, and legal documents.
+**🚀 About the project:** This website was created as part of a modern front-end development training course to practice practical skills. It is a virtual grooming studio with a full set of pages: Homepage, Services, Team, Gallery, Contacts, and Legal Documents.
 
 **Key features:**
 * Fully responsive design, displays correctly on mobile devices and tablets.
@@ -61,7 +65,7 @@ The project's core logic is built on React components and routing.
 **Sitio web para el proyecto GROOM.**
 Proyecto de formación para crear un sitio web totalmente funcional y adaptable para un salón de peluquería canina.
 
-**🚀 Sobre el proyecto:** Este sitio web se creó como parte de un curso de formación en desarrollo front-end moderno para practicar habilidades prácticas. Se trata de un salón de peluquería virtual con un conjunto completo de páginas: página de inicio, servicios, equipo, galería, contacto y documentos legales.
+**🚀 Sobre el proyecto:** Este sitio web se creó como parte de un curso de formación en desarrollo front-end moderno para practicar habilidades prácticas. Se trata de un salón de peluquería virtual con un conjunto completo de páginas: Página De Inicio, Servicios, Equipo, Galería, Contacto y Documentos Legales.
 
 **Características principales:**
 * Diseño totalmente adaptable, se visualiza correctamente en dispositivos móviles y tabletas.
