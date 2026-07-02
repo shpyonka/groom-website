@@ -28,7 +28,7 @@
 Для отслеживания посетителей на сайт (в учебных целях) интегрированы:
 **Google Tag Manager (GTM):** контейнер "GTM-MP4W8J7T". Используется как центральная точка для управления тегами.
 **Яндекс.Метрика:** счётчик "№105511354". Настроены цели, вебвизор, карта кликов и e-commerce для отслеживания взаимодействия с услугами.
-Базовое SEO: созданы и подключены файлы "robots.txt" и "sitemap.xml".
+**Базовое SEO:** созданы и подключены файлы "robots.txt" и "sitemap.xml".
 
 **📁 Структура и ключевой код:**
 Основная логика проекта построена на компонентах React и маршрутизации.
@@ -47,9 +47,13 @@ A training project to create a fully functional, responsive website for a pet gr
 **🛠️ Technologies Used:**
 
 **Frontend:** React 18, React Router DOM 6
+
 **Build:** Vite
+
 **Styles:** Pure CSS (using Flexbox, Grid, and CSS animations)
+
 **Hosting and Domain:** Beget.com
+
 **Tools:** Git, GitHub
 
 **📊 Analytics and Metrics:**
@@ -76,9 +80,13 @@ Proyecto de formación para crear un sitio web totalmente funcional y adaptable 
 **🛠️ Tecnologías utilizadas:**
 
 **Frontend:** React 18, React Router DOM 6
+
 **Compilación:** Vite
+
 **Estilos:** CSS puro (con Flexbox, Grid y animaciones CSS)
+
 **Alojamiento y dominio:** Beget.com
+
 **Herramientas:** Git, GitHub
 
 **📊 Analítica y métricas:**
